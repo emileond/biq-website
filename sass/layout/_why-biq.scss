@@ -1,0 +1,19 @@
+.why-biq {
+  background-image: url("./../img/why-biq-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  h2 {
+    grid-column: 3;
+  }
+  img{
+      grid-column: 2;
+      justify-self: right;
+      padding-right: 1rem;
+    }
+  &-text{
+    grid-column: 3;
+  }
+  &-btn{
+      grid-column: 3;
+  }
+}

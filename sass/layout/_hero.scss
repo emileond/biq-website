@@ -1,0 +1,37 @@
+.hero {
+  box-sizing: border-box;
+  background-color: $gray-bg;
+  background-image: url("./../img/hero-bg.png");
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  background-position: right top;
+  background-size: 65%;
+  &-content {
+    grid-row: 2;
+    grid-column: 1/5;
+    padding: 1rem;
+  }
+  &-heading {
+    h1 {
+      background-color: white;
+      margin: 1rem 0;
+    }
+  }
+  &-subheading {
+    font-size: $font-size-subheading;
+    max-width: 480px;
+    line-height: 40px;
+    margin: 0 0 3rem 0;
+  }
+  .scroll-down {
+    grid-row: 3;
+    grid-column: 3/5;
+    justify-self: center;
+    align-self: end;
+    text-align: center;
+    small {
+      display: block;
+      padding: .5rem 0 2rem 0;
+    }
+  }
+}

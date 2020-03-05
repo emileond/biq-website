@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="51px" viewBox="0 0 42 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>ic-report</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cover-#2" transform="translate(-720.000000, -2024.000000)" fill="#FD773A" fill-rule="nonzero">
+            <g id="Cómo-Funciona-Copy" transform="translate(-1030.000000, 1213.000000)">
+                <g id="ic-report" transform="translate(1750.000000, 811.000000)">
+                    <polygon id="Path" points="18.9 21.1794434 15.9294434 24.15 21 29.2205566 34.4705566 15.75 31.5 12.7794434 21 23.2794434"></polygon>
+                    <path d="M42,11.7294434 L30.2705566,0 L0,0 L0,50.4 L42,50.4 L42,11.7294434 Z M37.8,46.2 L4.2,46.2 L4.2,4.2 L28.5294434,4.2 L37.8,13.4705566 L37.8,46.2 Z" id="Shape"></path>
+                    <path d="M28.4,25.2 C28.4,29.8316894 24.6316894,33.6 20,33.6 C15.3683106,33.6 11.6,29.8316894 11.6,25.2 C11.6,20.5683106 15.3683106,16.8 20,16.8 L22.1,16.8 L22.1,12.6 L20,12.6 C13.0519531,12.6 7.4,18.2519531 7.4,25.2 C7.4,32.1480469 13.0519531,37.8 20,37.8 C26.9480469,37.8 32.6,32.1480469 32.6,25.2 L32.6,23.1 L28.4,23.1 L28.4,25.2 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

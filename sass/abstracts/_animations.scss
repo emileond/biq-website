@@ -1,0 +1,17 @@
+.animate-scroll-down {
+	        animation: animate-scroll-down 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+  @keyframes animate-scroll-down {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(12px);
+              transform: translateY(12px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+      }
+  }
