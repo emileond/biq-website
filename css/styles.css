@@ -59,7 +59,7 @@
 
 .grid-col3-row5 {
   display: grid;
-  grid-template-columns: 0.4fr 0.1fr 0.5fr;
+  grid-template-columns: 0.5fr 0.1fr 0.5fr;
   grid-template-rows: repeat(5, 1fr);
 }
 
@@ -577,6 +577,7 @@ template {
 }
 .why-biq h2 {
   grid-column: 3;
+  justify-self: left;
 }
 .why-biq img {
   grid-column: 2;
@@ -585,6 +586,9 @@ template {
 }
 .why-biq-text {
   grid-column: 3;
+}
+.why-biq-text h4:nth-child(even) {
+  color: #EF4F06;
 }
 .why-biq-btn {
   grid-column: 3;
