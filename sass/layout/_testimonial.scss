@@ -1,0 +1,31 @@
+.testimonial {
+  background-color: $gray-bg;
+  &-card {
+    text-align: center;
+    p {
+      padding: 1rem;
+      span {
+        font-family: cursive;
+        font-size: $font-size-h2;
+        font-weight: $font-weight-h1;
+        color: $orange-300;
+        padding-right: 0.5rem;
+      }
+    }
+    img {
+      border-radius: 50%;
+      justify-self: center;
+      display: inline-block;
+      margin: 1.5rem 0;
+      width: 4rem;
+      box-shadow: 10px 10px 50px rgba($color: $blue-500, $alpha: 0.3);
+    }
+    span {
+      color: $blue-300;
+      font-size: $font-size-h5;
+    }
+  }
+  &-btn {
+    text-align: center;
+  }
+}

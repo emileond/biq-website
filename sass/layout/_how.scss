@@ -1,8 +1,16 @@
 .how {
     &-card {
         margin-bottom: 4rem;
+        img{
+            align-self: center;
+            width: 42px;
+            margin-bottom: 1rem;
+        }
         h4 {
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            color: $gray-300;
         }
     }
 }

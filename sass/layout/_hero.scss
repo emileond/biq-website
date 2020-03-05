@@ -20,7 +20,9 @@
   &-subheading {
     font-size: $font-size-subheading;
     max-width: 480px;
-    line-height: 40px;
+    p{
+        line-height: 40px;
+    }
     margin: 0 0 3rem 0;
   }
   .scroll-down {

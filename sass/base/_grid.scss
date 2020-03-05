@@ -1,18 +1,18 @@
 .container {
   @media screen and (min-width: 300px) {
-    padding: 0 0vw;
+    padding: 1vh 0vw;
   }
   @media screen and (min-width: 768px) {
-    padding: 0 2vw;
+    padding: 1vh 2vw;
   }
   @media screen and (min-width: 992px) {
-    padding: 0 4vw;
+    padding: 2vh 4vw;
   }
   @media screen and (min-width: 1200px) {
-    padding: 0 6vw;
+    padding: 4vh 6vw;
   }
   @media screen and (min-width: 1600px) {
-    padding: 0 10vw;
+    padding: 5vh 10vw;
   }
   margin: auto;
 }
@@ -30,4 +30,9 @@
     display: grid;
     grid-template-columns: .5fr .1fr .5fr;
     grid-template-rows: repeat(5, 1fr);
+    gap: 1rem;
+}
+.grid-row3{
+    display: grid;
+    grid-template-rows: 1fr .2fr 1fr;
 }
