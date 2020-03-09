@@ -87,6 +87,10 @@
   grid-template-rows: 1fr 0.2fr 1fr;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -487,10 +491,20 @@ template {
 }
 
 .navbar {
-  background-color: white;
+  background-color: transparent;
   color: #191919;
-  padding: 0.5vw 5vw;
+  padding: 0vw 5vw;
+  position: fixed;
+  width: 100%;
   box-sizing: border-box;
+  top: 0;
+  transition: all 0.3s;
+}
+.navbar-scrolled {
+  background-color: white;
+  padding: 0vw 5vw;
+  box-shadow: 0px 0px 15px rgba(20, 23, 67, 0.3);
+  transition: all 0.3s;
 }
 .navbar-flex {
   display: flex;
@@ -508,6 +522,9 @@ template {
 .navbar-flex li:hover {
   background-color: #EF4F06;
   border-radius: 1rem;
+}
+.navbar-flex li:hover a {
+  color: white;
 }
 .navbar-flex li:nth-last-child(1) {
   display: inline-block;
@@ -556,6 +573,14 @@ template {
     font-size: 2rem;
   }
 }
+.active-link {
+  background-color: #EF4F06;
+  border-radius: 1rem;
+}
+.active-link a {
+  color: white;
+}
+
 footer {
   background-color: #282828;
 }
@@ -692,6 +717,49 @@ footer {
 }
 .testimonial-btn {
   text-align: center;
+}
+
+.faq {
+  text-align: center;
+  padding: 5vh 0;
+  background-color: #F7F8FB;
+}
+.faq-list {
+  text-align: left;
+  list-style-type: none;
+  padding: 0 2rem;
+}
+.faq-list li {
+  border-bottom: 1px solid #A3A3A3;
+}
+.faq-answer {
+  padding-left: 1rem;
+  line-height: 24px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.faq-question {
+  color: #595959;
+  padding: 1rem;
+  cursor: pointer;
+}
+.faq-question:hover {
+  color: #424242;
+}
+.faq-wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+.show {
+  max-height: 200px;
+  padding-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.active-question {
+  color: #EF4F06;
 }
 
 body {

@@ -26,13 +26,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
-.grid-col3-row5{
-    display: grid;
-    grid-template-columns: .5fr .1fr .5fr;
-    grid-template-rows: repeat(5, 1fr);
-    gap: 1rem;
+.grid-col3-row5 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.1fr 0.5fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
 }
-.grid-row3{
-    display: grid;
-    grid-template-rows: 1fr .2fr 1fr;
+.grid-row3 {
+  display: grid;
+  grid-template-rows: 1fr 0.2fr 1fr;
+}
+html {
+  scroll-behavior: smooth;
 }
