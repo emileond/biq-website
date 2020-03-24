@@ -1,19 +1,4 @@
 .container {
-  @media screen and (min-width: 300px) {
-    padding: 1vh 0vw;
-  }
-  @media screen and (min-width: 768px) {
-    padding: 1vh 2vw;
-  }
-  @media screen and (min-width: 992px) {
-    padding: 2vh 4vw;
-  }
-  @media screen and (min-width: 1200px) {
-    padding: 4vh 6vw;
-  }
-  @media screen and (min-width: 1600px) {
-    padding: 5vh 10vw;
-  }
   margin: auto;
 }
 .grid-col6-row3 {
@@ -38,4 +23,109 @@
 }
 html {
   scroll-behavior: smooth;
+}
+@media screen and (min-width: 300px) {
+  .container{
+    padding: 1vh 2vw;
+  }
+  .grid-col6-row3{
+    grid-template-columns: 1fr;
+    grid-template-rows: .3fr .6fr .5fr;
+  }
+  .grid-col3{
+    grid-template-columns: 1fr;
+  }
+  .grid-col3-row5{
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container{
+    padding: 1vh 2vw;
+  }
+  .grid-col6-row3{
+    grid-template-columns: 1fr;
+    grid-template-rows: .3fr .6fr .5fr;
+  }
+  .grid-col3{
+    grid-template-columns: 1fr;
+  }
+  .grid-col3-row5{
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container{
+    padding: 2vh 4vw;
+  }
+  .grid-col6-row3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0.4fr 0.6fr 1fr;
+}
+.grid-col3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.grid-col3-row5 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.1fr 0.5fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
+}
+.grid-row3 {
+  display: grid;
+  grid-template-rows: 1fr 0.2fr 1fr;
+}
+}
+@media screen and (min-width: 1200px) {
+  .container{
+    padding: 4vh 6vw;
+  }
+  .grid-col6-row3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0.4fr 0.6fr 1fr;
+}
+.grid-col3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.grid-col3-row5 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.1fr 0.5fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
+}
+.grid-row3 {
+  display: grid;
+  grid-template-rows: 1fr 0.2fr 1fr;
+}
+}
+@media screen and (min-width: 1600px) {
+  .container{
+    padding: 5vh 10vw;
+  }
+  .grid-col6-row3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0.4fr 0.6fr 1fr;
+}
+.grid-col3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.grid-col3-row5 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.1fr 0.5fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
+}
+.grid-row3 {
+  display: grid;
+  grid-template-rows: 1fr 0.2fr 1fr;
+}
 }

@@ -29,6 +29,24 @@ window.addEventListener('scroll', () => {
     }
 })
 
+// Back to Top Button
+const btnBackToTop = document.querySelector('#backTop')
+
+window.onscroll = function() {scrollToTop()};
+function scrollToTop(){
+  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+    btnBackToTop.classList.add('show-btn');
+}
+else {
+    btnBackToTop.classList.remove('show-btn');
+
+  }
+}
+
+function topBtn(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 
 // FAQ Functionallity 
 const items = document.querySelectorAll('.faq-question')
@@ -37,10 +55,6 @@ function toggleAccordion() {
     // this.child.classList.to
     // this.children[0].classList.toggle('fa-angle-down');
     // this.children[0].classList.toggle('fa-angle-up');
-    items.forEach(el => {
-        el.classList.remove('active-question')
-    })
-    this.classList.toggle('active-question')
     this.nextElementSibling.classList.toggle('show');
 }
 
