@@ -29,7 +29,7 @@
     grid-row: 3;
     grid-column: 3/5;
     justify-self: center;
-    align-self: end;
+    align-self: center;
     text-align: center;
     small {
       display: block;
@@ -49,9 +49,21 @@
     }
   }
   @media screen and (min-width: 992px) {
+    .scroll-down{
+      grid-row: 3;
+      grid-column: 3/5;
+    }
   }
   @media screen and (min-width: 1200px) {
+    .scroll-down{
+      grid-row: 3;
+      grid-column: 3/5;
+    }
   }
   @media screen and (min-width: 1600px) {
+    .scroll-down{
+      grid-row: 3;
+      grid-column: 3/5;
+    }
   }
 }

@@ -15,14 +15,29 @@
   &-text {
     grid-column: 3;
     h4:nth-child(even) {
-        margin-top: .5rem;
+      margin-top: 0.5rem;
       color: $orange-300;
     }
   }
-  p{
+  p {
     margin-bottom: 4rem;
   }
   &-btn {
     grid-column: 3;
+  }
+  @media screen and (min-width: 300px) {
+    background-image: none;
+  }
+  @media screen and (min-width: 768px) {
+    background-image: none;
+  }
+  @media screen and (min-width: 992px) {
+    background-image: url("./../img/why-biq-bg.png");
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url("./../img/why-biq-bg.png");
+  }
+  @media screen and (min-width: 1600px) {
+    background-image: url("./../img/why-biq-bg.png");
   }
 }
