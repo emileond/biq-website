@@ -321,7 +321,7 @@
               <h5>¿Con qué objetivo estás buscando inmueble?</h5>
               <div class="grid-col3 checkboxes">
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="goal" value="Habitar" id="input-habitar"/>
+                  <input type="checkbox" name="Objetivo[]" value="Habitar" id="input-habitar"/>
                   <label class="whatever" for="input-habitar">
                     <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
@@ -342,10 +342,9 @@
                   </svg><span>Habitar</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="goal" value="Invertir" id="input-invertir" />
+                  <input type="checkbox" name="Objetivo[]" value="Invertir" id="input-invertir" />
                   <label class="whatever" for="input-invertir">
                     <svg width="48px" height="51px" viewBox="0 0 48 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-874.000000, -3277.000000)" fill="#5764D9" fill-rule="nonzero">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -361,7 +360,7 @@
                   <span>Invertir</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="goal" value="No se" id="input-obj-otro" />
+                  <input type="checkbox" name="Objetivo[]" value="No estoy seguro" id="input-obj-otro" />
                   <label class="whatever" for="input-obj-otro">
                     <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
@@ -769,65 +768,65 @@ Cuando hayas elegido alguna o algunas opciones nosotros te ayudamos a agendar ci
           </ul>
         </div>
         <div class="footer-form">
-          <form action="">
+          <form name="Formulario de Contacto" method="POST" netlify>
             <h5>Ponte en contacto con nosotros</h5>
             <label for="client-name">Nombre y Apellido </label>
-            <input type="text" placeholder="Juan Pérez" />
-            <label for="client-name">Celular</label>
-            <input type="text" placeholder="10 Dígitos" />
-            <label for="client-name">Email</label>
-            <input type="text" placeholder="usuario@empresa.com" />
-          </form>
-          <div class="footer-form-btn-wrapper">
-            <button class="btn btn-solid__primary">
-              Enviar mensaje<svg
-                width="10px"
-                height="16px"
-                viewBox="0 0 10 16"
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-                <title>ic-angle-right</title>
-                <desc>Created with Sketch.</desc>
-                <g
-                  id="Page-1"
-                  stroke="none"
-                  stroke-width="1"
-                  fill="none"
-                  fill-rule="evenodd"
+            <input type="text" placeholder="Juan Pérez" id="client-name"/>
+            <label for="client-phone">Celular</label>
+            <input type="number" placeholder="10 Dígitos" id="client-phone"/>
+            <label for="client-email">Email</label>
+            <input type="text" placeholder="usuario@empresa.com" id="client-email"/>
+            <div class="footer-form-btn-wrapper">
+              <button type="submit" class="btn btn-solid__primary">
+                Enviar mensaje<svg
+                  width="10px"
+                  height="16px"
+                  viewBox="0 0 10 16"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
                 >
+                  <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+                  <title>ic-angle-right</title>
+                  <desc>Created with Sketch.</desc>
                   <g
-                    id="Cover-#2"
-                    transform="translate(-1000.000000, -2694.000000)"
-                    fill="#FFFFFF"
-                    fill-rule="nonzero"
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
                   >
                     <g
-                      id="Cómo-Funciona-Copy"
-                      transform="translate(-1030.000000, 1213.000000)"
+                      id="Cover-#2"
+                      transform="translate(-1000.000000, -2694.000000)"
+                      fill="#FFFFFF"
+                      fill-rule="nonzero"
                     >
                       <g
-                        id="Button"
-                        transform="translate(1816.000000, 1461.000000)"
+                        id="Cómo-Funciona-Copy"
+                        transform="translate(-1030.000000, 1213.000000)"
                       >
                         <g
-                          id="ic-angle-right"
-                          transform="translate(214.000000, 20.000000)"
+                          id="Button"
+                          transform="translate(1816.000000, 1461.000000)"
                         >
-                          <path
-                            d="M8.81689407,8.79208228 L1.91801912,15.6716145 C1.47916734,16.1094618 0.767644403,16.1094618 0.329005676,15.6716145 C-0.109668559,15.2341567 -0.109668559,14.5246422 0.329005676,14.0872198 L6.43344493,7.99988492 L0.32918322,1.91276251 C-0.109491015,1.47512764 -0.109491015,0.765683959 0.32918322,0.328226147 C0.767857455,-0.109408716 1.47934488,-0.109408716 1.91819666,0.328226147 L8.81707161,7.20786461 C9.03640873,7.42669975 9.14595301,7.71320381 9.14595301,7.99984951 C9.14595301,8.28663685 9.03619568,8.57335337 8.81689407,8.79208228 Z"
-                            id="Shape"
-                          ></path>
+                          <g
+                            id="ic-angle-right"
+                            transform="translate(214.000000, 20.000000)"
+                          >
+                            <path
+                              d="M8.81689407,8.79208228 L1.91801912,15.6716145 C1.47916734,16.1094618 0.767644403,16.1094618 0.329005676,15.6716145 C-0.109668559,15.2341567 -0.109668559,14.5246422 0.329005676,14.0872198 L6.43344493,7.99988492 L0.32918322,1.91276251 C-0.109491015,1.47512764 -0.109491015,0.765683959 0.32918322,0.328226147 C0.767857455,-0.109408716 1.47934488,-0.109408716 1.91819666,0.328226147 L8.81707161,7.20786461 C9.03640873,7.42669975 9.14595301,7.71320381 9.14595301,7.99984951 C9.14595301,8.28663685 9.03619568,8.57335337 8.81689407,8.79208228 Z"
+                              id="Shape"
+                            ></path>
+                          </g>
                         </g>
                       </g>
                     </g>
                   </g>
-                </g>
-              </svg>
-            </button>
-          </div>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
       <div class="footer-bottom-bar">
