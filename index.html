@@ -310,22 +310,21 @@
           <form name="Formulario de Ventas" id="regForm" method="POST" netlify>
             <div class="tab">
               <h5>¿Cómo podemos contactarte?</h5>
-              <label for="client-name">Nombre y Apellido </label>
+              <label for="client-name">Nombre y Apellido:</label>
               <input type="text" placeholder="Juan Pérez" id="client-name" name="Nombre"/>
-              <label for="client-phone">Celular</label>
+              <label for="client-phone">Celular:</label>
               <input type="number" placeholder="10 Dígitos" id="client-phone" name="Teléfono"/>
-              <label for="client-email">Email</label>
+              <label for="client-email">Email:</label>
               <input type="email" placeholder="usuario@empresa.com" id="client-email" name="Email"/>
             </div>
             <div class="tab">
               <h5>¿Con qué objetivo estás buscando inmueble?</h5>
               <div class="grid-col3 checkboxes">
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="Objetivo[]" value="Habitar" id="input-habitar"/>
-                  <label style="display: none;" for="input-habitar">Objetivo</label>
+                  <input type="checkbox" name="Objetivo" value="Habitar" id="input-habitar"/>
+                  <label style="display: none;" for="input-habitar">Objetivo:</label>
                   <label class="whatever" for="input-habitar">
                     <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-671.000000, -3280.000000)" fill="#5764D9" fill-rule="nonzero">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -343,7 +342,7 @@
                   </svg><span>Habitar</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="Objetivo[]" value="Invertir" id="input-invertir" />
+                  <input type="checkbox" name="Objetivo" value="Invertir" id="input-invertir" />
                   <label class="whatever" for="input-invertir">
                     <svg width="48px" height="51px" viewBox="0 0 48 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -361,7 +360,7 @@
                   <span>Invertir</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="Objetivo[]" value="No estoy seguro" id="input-obj-otro" />
+                  <input type="checkbox" name="Objetivo" value="No estoy seguro" id="input-obj-otro" />
                   <label class="whatever" for="input-obj-otro">
                     <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
@@ -386,11 +385,9 @@
               <div class="grid-col4 checkboxes">
                 <div class="checkboxes-card">
                   <input type="checkbox" name="tipo" value="1" id="input-terreno" />
+                  <label style="display: none;" for="input-habitar">Tipo de Inmueble:</label>
                   <label class="whatever" for="input-terreno">
                     <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                      <title>plant</title>
-                      <desc>Created with Sketch.</desc>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-652.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -476,6 +473,7 @@
             </div>
             <h5>¿Prefieres privada o fraccionamiento?</h5>
             <div class="checkboxes-standard">
+              <label style="display: none;" for="input-privada">¿Privada o fraccionamiento?:</label>
                 <label for="input-privada"><input type="checkbox" name="location" id="input-privada">Privada</label>
                 <label for="input-fracc"><input type="checkbox" name="location" id="input-fracc">Fraccionamiento</label>
                 <label for="input-location-cualquiera"><input type="checkbox" name="location" id="input-location-cualquiera">Cualquiera</label>
@@ -484,18 +482,16 @@
             <div class="tab">
               <h5>¿Cuánto buscas invertir?</h5>
               <div class="investment">
-                <label for="input-monto">$</label>
+                <label for="input-monto">Inversión: $</label>
                 <input placeholder="Ej. $100,000" type="number" name="monto" id="input-monto"><label for="input-monto">MXN</label>
               </div>
               <h5>¿Prefieres preventa o entrega inmediata?</h5>
               <div class="grid-col3 checkboxes">
                 <div class="checkboxes-card">
+                  <label style="display: none;" for="input-input preventa">¿Preventa o Entrega Inmediata?:</label>
                   <input type="checkbox" name="entrega" value="1" id="input-preventa" />
                   <label class="whatever" for="input-preventa">
                     <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                      <title>plant</title>
-                      <desc>Created with Sketch.</desc>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-652.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -510,12 +506,9 @@
                   </svg><span>Preventa</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="entrega" value="1" id="input-inmediata" />
+                  <input type="checkbox" name="entrega" value="Entrega Inmediata" id="input-inmediata" />
                   <label class="whatever" for="input-inmediata">
                     <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                      <title>plant</title>
-                      <desc>Created with Sketch.</desc>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-652.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -533,9 +526,6 @@
                   <input type="checkbox" name="entrega" value="1" id="input-entrega-cualquiera" />
                   <label class="whatever" for="input-entrega-cualquiera">
                     <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                      <title>plant</title>
-                      <desc>Created with Sketch.</desc>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-652.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
