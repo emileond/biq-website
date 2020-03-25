@@ -311,11 +311,11 @@
             <div class="tab">
               <h5>¿Cómo podemos contactarte?</h5>
               <label for="client-name">Nombre y Apellido </label>
-              <input type="text" placeholder="Juan Pérez" />
-              <label for="client-name">Celular</label>
-              <input type="text" placeholder="10 Dígitos" />
-              <label for="client-name">Email</label>
-              <input type="text" placeholder="usuario@empresa.com" />
+              <input type="text" placeholder="Juan Pérez" id="client-name" />
+              <label for="client-phone">Celular</label>
+              <input type="number" placeholder="10 Dígitos" id="client-phone"/>
+              <label for="client-email">Email</label>
+              <input type="email" placeholder="usuario@empresa.com" id="client-email"/>
             </div>
             <div class="tab">
               <h5>¿Con qué objetivo estás buscando inmueble?</h5>
@@ -411,12 +411,9 @@
                   </svg><span>Terreno</span></label>
                 </div>
               <div class="checkboxes-card">
-                <input type="checkbox" name="tipo" value="1" id="input-casa" />
-                <label class="whatever" for="input-casa">
+                <input type="checkbox" name="tipo" value="Casa" id="input-casa" />
+                <label title="Tipo de inmueble: " class="whatever" for="input-casa">
                   <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                    <title>house (1)</title>
-                    <desc>Created with Sketch.</desc>
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Biq-Landing-Page" transform="translate(-802.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
                             <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
