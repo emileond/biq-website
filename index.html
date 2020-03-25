@@ -13,6 +13,23 @@
       src="https://kit.fontawesome.com/78828b88dd.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <header>
@@ -22,23 +39,23 @@
             <i class="fas fa-bars"></i>
           </span>
           <div>
-            <a href="#"><img class="logo" src="img/logo.png" alt=""/></a>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt=""/></a>
           </div>
           <ul class="main-nav" id="js-menu">
             <li>
-              <a href="#" class="nav-link">Inicio</a>
+              <a href="index.html" class="nav-link">Inicio</a>
             </li>
             <li>
               <a href="#how-it-works" class="nav-link">¿Cómo Funciona?</a>
             </li>
             <li>
-              <a href="#" class="nav-link">¿Por qué Biq?</a>
+              <a href="#why-biq" class="nav-link">¿Por qué Biq?</a>
             </li>
             <li>
-              <a href="#" class="nav-link">Encuentra tu Propiedad</a>
+              <a href="#start-now" class="nav-link">Encuentra tu Propiedad</a>
             </li>
             <li>
-              <a href="#" class="nav-link">Contacto</a>
+              <a href="#contact" class="nav-link">Contacto</a>
             </li>
           </ul>
         </div>
@@ -169,9 +186,6 @@
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
             >
-              <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-              <title>ic-angle-right</title>
-              <desc>Created with Sketch.</desc>
               <g
                 id="Page-1"
                 stroke="none"
@@ -211,7 +225,7 @@
         </div>
       </div>
     </section>
-    <section class="why-biq">
+    <section id="why-biq" class="why-biq">
       <div class="container grid-col3-row5">
         <h2>¿Por qué Biq?</h2>
         <img src="img/ic-report.svg" alt="" width="32px" />
@@ -233,7 +247,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div> -->
-        <img src="img/ic-report.svg" alt="" width="32px" />
+        <img src="img/ic-like.svg" alt="" width="32px" />
         <div class="why-biq-text">
           <h4>Desarrollos de calidad</h4>
           <h4>Te ofrecemos solo las mejores opciones</h4>
@@ -296,7 +310,7 @@
         </div>
       </div>
     </section>
-    <section class="start-now">
+    <section id="start-now" class="start-now">
       <div class="container">
         <h2>Comienza ahora</h2>
         <h4>Completa el formulario y te enviaremos las mejores opciones</h4>
@@ -307,7 +321,7 @@
             <span class="step"></span>
             <span class="step"></span>
           </div>
-          <form name="Formulario de Ventas" id="regForm" method="POST" netlify>
+          <form action="sucess.html" name="Formulario de Ventas" id="regForm" method="POST" netlify>
             <div class="tab">
               <h5>¿Cómo podemos contactarte?</h5>
               <label for="client-name">Nombre y Apellido:</label>
@@ -321,9 +335,9 @@
               <h5>¿Con qué objetivo estás buscando inmueble?</h5>
               <div class="grid-col3 checkboxes">
                 <div class="checkboxes-card">
-                  <label for="input-habitar" style="display: none;">Objetivo:</label>
+                  <label style="display: none;">Objetivo:</label>
                   <input type="radio" name="Objetivo" value="Habitar" id="input-habitar"/>
-                  <label class="whatever">
+                  <label for="input-habitar" class="whatever">
                     <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-671.000000, -3280.000000)" fill="#5764D9" fill-rule="nonzero">
@@ -344,7 +358,7 @@
                 <div class="checkboxes-card">
                   <label style="display: none;">Objetivo:</label>
                   <input type="radio" name="Objetivo" value="Invertir" id="input-invertir" />
-                  <label class="whatever">
+                  <label for="input-invertir" class="whatever">
                     <svg width="48px" height="51px" viewBox="0 0 48 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-874.000000, -3277.000000)" fill="#5764D9" fill-rule="nonzero">
@@ -363,7 +377,7 @@
                 <div class="checkboxes-card">
                   <label style="display: none;">Objetivo:</label>
                   <input type="radio" name="Objetivo" value="No estoy seguro" id="input-obj-otro" />
-                  <label class="whatever">
+                  <label for="input-obj-otro" class="whatever">
                     <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -386,9 +400,8 @@
               <h5>¿Qué tipo de inmueble buscas?</h5>
               <div class="grid-col4 checkboxes">
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="tipo" value="1" id="input-terreno" />
-                  <label style="display: none;" for="input-habitar">Tipo de Inmueble:</label>
-                  <label class="whatever" for="input-terreno">
+                  <input type="radio" name="tipo" value="1" id="input-terreno" />
+                  <label class="whatever" for="input-terreno" for="input-terreno">
                     <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-652.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
@@ -404,7 +417,7 @@
                   </svg><span>Terreno</span></label>
                 </div>
               <div class="checkboxes-card">
-                <input type="checkbox" name="tipo" value="Casa" id="input-casa" />
+                <input type="radio" name="tipo" value="Casa" id="input-casa" />
                 <label title="Tipo de inmueble: " class="whatever" for="input-casa">
                   <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -423,12 +436,9 @@
                 </svg><span>Casa</span></label>
               </div>
               <div class="checkboxes-card">
-                <input type="checkbox" name="tipo" value="1" id="input-depa" />
+                <input type="radio" name="tipo" value="1" id="input-depa" />
                 <label class="whatever" for="input-depa">
                   <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                    <title>appartments</title>
-                    <desc>Created with Sketch.</desc>
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Biq-Landing-Page" transform="translate(-952.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
                             <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -450,12 +460,9 @@
                 </svg><span>Depto.</span></label>
               </div>
               <div class="checkboxes-card">
-                <input type="checkbox" name="tipo" value="1" id="input-tipo-cualquiera"/>
+                <input type="radio" name="tipo" value="1" id="input-tipo-cualquiera"/>
                 <label class="whatever" for="input-tipo-cualquiera">
                   <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                    <title>menu</title>
-                    <desc>Created with Sketch.</desc>
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Biq-Landing-Page" transform="translate(-1066.000000, -3283.000000)">
                             <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -476,9 +483,9 @@
             <h5>¿Prefieres privada o fraccionamiento?</h5>
             <div class="checkboxes-standard">
               <label style="display: none;" for="input-privada">¿Privada o fraccionamiento?:</label>
-                <label for="input-privada"><input type="checkbox" name="location" id="input-privada">Privada</label>
-                <label for="input-fracc"><input type="checkbox" name="location" id="input-fracc">Fraccionamiento</label>
-                <label for="input-location-cualquiera"><input type="checkbox" name="location" id="input-location-cualquiera">Cualquiera</label>
+                <label for="input-privada"><input type="radio" name="location" id="input-privada">Privada</label>
+                <label for="input-fracc"><input type="radio" name="location" id="input-fracc">Fraccionamiento</label>
+                <label for="input-location-cualquiera"><input type="radio" name="location" id="input-location-cualquiera">Cualquiera</label>
             </div>
             </div>
             <div class="tab">
@@ -491,16 +498,17 @@
               <div class="grid-col3 checkboxes">
                 <div class="checkboxes-card">
                   <label style="display: none;" for="input-input preventa">¿Preventa o Entrega Inmediata?:</label>
-                  <input type="checkbox" name="entrega" value="1" id="input-preventa" />
+                  <input type="radio" name="entrega" value="1" id="input-preventa" />
                   <label class="whatever" for="input-preventa">
-                    <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg width="42px" height="46px" viewBox="0 0 42 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                          <g id="Biq-Landing-Page" transform="translate(-652.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
-                              <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
-                                  <g id="Group-4" transform="translate(570.000000, 250.000000)">
-                                      <g id="plant" transform="translate(82.000000, 324.000000)">
-                                          <path d="M36.9299766,28.9375078 C31.8822656,27.0504609 26.761957,26.0533711 21.6991523,25.9689609 C21.8249883,24.2669766 21.8012812,22.6228242 21.6288516,21.0542227 C23.1848203,21.8751914 24.9761367,22.1137383 26.8211836,21.7215469 C33.2128945,20.3628633 38.0950664,14.9608594 38.6665781,8.32412109 C38.7073477,7.85088281 38.4892266,7.39257422 38.0962969,7.12572656 C33.1088789,3.73849219 26.4178359,3.70822266 21.2490469,7.35820313 C18.0252187,1.81838672 11.3115352,-1.25811328 4.72811719,0.49021875 C4.26907031,0.612035156 3.91166016,0.972480469 3.79361719,1.43251172 C1.37878125,10.8435469 8.71696875,19.1626641 14.5767891,19.1626641 C15.933668,19.1626641 17.2318125,18.7858125 18.3898477,18.1082344 C19.0355977,20.3435039 19.3134375,22.9900781 19.0645547,26.0071055 C14.4047695,26.2207148 9.70544531,27.2035312 5.06739844,28.9375078 C-2.40860156,31.7323945 -1.41610547,38.8905234 7.37370703,40.6439414 C16.4143711,42.4478086 25.583168,42.4478086 34.62375,40.6439414 C43.3927266,38.894625 44.4218086,31.7383828 36.9299766,28.9375078 L36.9299766,28.9375078 Z M35.9588086,8.87857031 C35.193375,13.9269375 31.3415156,18.0771445 26.2753477,19.1540508 C24.5572031,19.5193359 22.8881953,19.0939219 21.6357422,17.8196484 C24.2720625,14.7739102 26.8685977,13.0529766 30.5404805,11.9082305 C31.2325781,11.6924063 31.6186172,10.9565039 31.402875,10.2645703 C31.1871328,9.57239063 30.4509844,9.18684375 29.7592148,9.40209375 C26.6908359,10.3586602 24.2241562,11.7170977 21.9486094,13.7509805 C22.3769766,12.487207 22.4597461,11.1849609 22.2161953,9.91126172 C26.1879023,6.76413281 31.6290352,6.33863672 35.9588086,8.87857031 L35.9588086,8.87857031 Z M11.9056875,15.7511484 C7.47362109,13.0548633 5.21997656,7.85974219 6.16571484,2.85124219 C11.1952148,1.86662109 16.2791016,4.18638281 18.934043,8.59712109 C20.0017617,10.3708008 19.8705117,12.0882891 19.2540469,13.4240859 C17.7796992,10.8451875 15.7403203,8.91171094 13.3430391,7.8631875 C12.678832,7.57255078 11.9050313,7.87557422 11.6145586,8.53978125 C11.3240859,9.20390625 11.6270273,9.97770703 12.2911523,10.2681797 C14.3027227,11.1480469 16.1630273,12.9624961 17.4382852,15.6039023 C15.7915898,16.7604609 13.7565586,16.8773555 11.9056875,15.7511484 L11.9056875,15.7511484 Z M34.1100703,38.0697188 C25.409918,39.8055 16.587293,39.8055 7.88714062,38.0697188 C5.3011875,37.5538242 2.68332422,36.1493672 2.68332422,34.4632969 C2.68332422,33.3331523 3.94898438,32.1578906 5.98647656,31.3963125 C10.2140391,29.8158164 14.4884414,28.8963281 18.724125,28.6531875 C18.6083789,29.3194453 18.4681875,30.001043 18.3020742,30.6976523 C18.1339102,31.402793 18.569168,32.1107227 19.2743086,32.2788047 C19.9777266,32.4466406 20.6869687,32.0132695 20.8554609,31.3065703 C21.0740742,30.3898711 21.2533125,29.4835898 21.3943242,28.5896953 C26.2419609,28.6384219 31.1571914,29.5817813 36.0108164,31.3962305 C38.0482266,32.1578086 39.3138867,33.3329883 39.3138867,34.4632148 C39.3138867,36.1493672 36.6960234,37.5538242 34.1100703,38.0697188 L34.1100703,38.0697188 Z" id="Shape"></path>
-                                      </g>
+                          <g id="Form-Copy-2" transform="translate(-663.000000, -547.000000)" fill="#5562D6" fill-rule="nonzero">
+                              <g id="Group-4" transform="translate(570.000000, 261.000000)">
+                                  <g id="tag" transform="translate(93.000000, 286.386694)">
+                                      <path d="M41.6395547,0.385174409 C41.1590977,-0.12833303 40.3798828,-0.12833303 39.8993437,0.385174409 L36.3153984,4.2150037 C36.0950625,4.10279996 35.8625859,4.01242335 35.6198555,3.94764322 L24.4823906,1.00729156 C23.2317422,0.673222453 21.8883984,1.07075681 20.9767852,2.0449132 L1.07953125,23.2722834 C-0.359707031,24.8103512 -0.359707031,27.3130206 1.07953125,28.8511761 L15.0013008,43.7279898 C16.4406211,45.2660577 18.7826133,45.2661453 20.2220156,43.7279898 L40.0865391,22.465556 C40.9981523,21.4913996 41.3702461,20.055893 41.0574609,18.7193535 L38.3059687,6.81786754 C38.2452656,6.55857171 38.1607734,6.31005795 38.0557734,6.07460541 L41.6397187,2.24477612 C42.1200938,1.73126868 42.1200938,0.898681848 41.6395547,0.385174409 Z M38.6697773,19.357337 C38.7740391,19.8028209 38.6500078,20.2812647 38.3461641,20.6060419 L18.4816406,41.8683881 C18.0018398,42.3811066 17.2211484,42.3811066 16.7413477,41.8683881 L2.81966016,26.9914868 C2.33985938,26.4787683 2.33985938,25.6445159 2.81966016,25.1317974 L22.7169961,3.90451491 C22.9497187,3.65582583 23.2668516,3.51986646 23.5898906,3.51986646 C23.6886563,3.51986646 23.7879961,3.53257704 23.8855312,3.55861181 L34.3469766,6.31838557 L31.3835977,9.48507322 C30.011625,8.78678024 28.3169414,9.04292035 27.1827773,10.2548961 C25.743375,11.7930516 25.743375,14.2956333 27.1827773,15.8337889 C27.9023555,16.6028228 28.8477656,16.9873836 29.7930938,16.9873836 C30.7383398,16.9873836 31.68375,16.6029105 32.4033281,15.8337889 C33.5377383,14.6216378 33.7773516,12.8107746 33.1237266,11.3446749 L36.0871055,8.17798728 L38.6697773,19.357337 Z M30.6631992,13.9742748 C30.1834805,14.4869057 29.4027891,14.4869933 28.9229883,13.9742748 C28.4432695,13.461644 28.4432695,12.627304 28.9229883,12.1146731 C29.1629297,11.85827 29.4779297,11.7302 29.7930937,11.7302 C30.1080937,11.7302 30.4232578,11.8583577 30.6630352,12.1145855 L30.6631172,12.1146731 L30.6631992,12.1147608 C31.143,12.6273916 31.142918,13.461644 30.6631992,13.9742748 Z" id="Shape"></path>
+                                      <path d="M20.2218516,15.8338765 C18.7825313,14.2958087 16.4405391,14.2958087 15.0011367,15.8338765 C13.5618984,17.3719444 13.5618984,19.8746138 15.0011367,21.4127693 C16.440457,22.9508372 18.7825313,22.9508372 20.2218516,21.4127693 C21.6612539,19.8746138 21.6612539,17.372032 20.2218516,15.8338765 Z M18.4817227,19.5530799 C18.0019219,20.0657985 17.2212305,20.0657985 16.7415117,19.5530799 C16.261793,19.0403614 16.2616289,18.2061091 16.7414297,17.6934782 C17.2212305,17.1808474 18.0018398,17.1807597 18.4817227,17.6934782 C18.9614414,18.2061091 18.9614414,19.0403614 18.4817227,19.5530799 Z" id="Shape"></path>
+                                      <path d="M21.9620625,28.8510885 C20.5193789,27.3094266 18.1843594,27.3092513 16.7414297,28.8510885 C15.3020273,30.389244 15.3020273,32.8918258 16.7414297,34.4299813 C18.1841953,35.9716432 20.5192148,35.9719061 21.9620625,34.4299813 C23.4014648,32.8918258 23.4014648,30.389244 21.9620625,28.8510885 Z M20.2218516,32.5703796 C19.7410664,33.0842376 18.9625078,33.0843253 18.4816406,32.5703796 C18.0019219,32.0577487 18.0019219,31.2234087 18.4816406,30.7107779 C18.9625078,30.1969198 19.7409844,30.1968321 20.2218516,30.7107779 C20.7015703,31.2234087 20.7015703,32.0575734 20.2218516,32.5703796 Z" id="Shape"></path>
+                                      <path d="M27.5356758,24.0569206 C27.4606172,23.335135 26.8521094,22.8149655 26.1767461,22.8951736 L10.5148477,24.7547753 C9.83940234,24.8349834 9.35262891,25.4850639 9.4276875,26.2069372 C9.49766016,26.8793707 10.0303711,27.3768365 10.6492148,27.3768365 C10.6945781,27.3768365 10.7405156,27.3741191 10.7866172,27.3686842 L26.4485977,25.5090825 C27.124043,25.4287867 27.6108164,24.7787063 27.5356758,24.0569206 Z" id="Path"></path>
                                   </g>
                               </g>
                           </g>
@@ -508,16 +516,16 @@
                   </svg><span>Preventa</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="entrega" value="Entrega Inmediata" id="input-inmediata" />
+                  <input type="radio" name="entrega" value="Entrega Inmediata" id="input-inmediata" />
                   <label class="whatever" for="input-inmediata">
-                    <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg width="42px" height="43px" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                          <g id="Biq-Landing-Page" transform="translate(-652.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
-                              <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
-                                  <g id="Group-4" transform="translate(570.000000, 250.000000)">
-                                      <g id="plant" transform="translate(82.000000, 324.000000)">
-                                          <path d="M36.9299766,28.9375078 C31.8822656,27.0504609 26.761957,26.0533711 21.6991523,25.9689609 C21.8249883,24.2669766 21.8012812,22.6228242 21.6288516,21.0542227 C23.1848203,21.8751914 24.9761367,22.1137383 26.8211836,21.7215469 C33.2128945,20.3628633 38.0950664,14.9608594 38.6665781,8.32412109 C38.7073477,7.85088281 38.4892266,7.39257422 38.0962969,7.12572656 C33.1088789,3.73849219 26.4178359,3.70822266 21.2490469,7.35820313 C18.0252187,1.81838672 11.3115352,-1.25811328 4.72811719,0.49021875 C4.26907031,0.612035156 3.91166016,0.972480469 3.79361719,1.43251172 C1.37878125,10.8435469 8.71696875,19.1626641 14.5767891,19.1626641 C15.933668,19.1626641 17.2318125,18.7858125 18.3898477,18.1082344 C19.0355977,20.3435039 19.3134375,22.9900781 19.0645547,26.0071055 C14.4047695,26.2207148 9.70544531,27.2035312 5.06739844,28.9375078 C-2.40860156,31.7323945 -1.41610547,38.8905234 7.37370703,40.6439414 C16.4143711,42.4478086 25.583168,42.4478086 34.62375,40.6439414 C43.3927266,38.894625 44.4218086,31.7383828 36.9299766,28.9375078 L36.9299766,28.9375078 Z M35.9588086,8.87857031 C35.193375,13.9269375 31.3415156,18.0771445 26.2753477,19.1540508 C24.5572031,19.5193359 22.8881953,19.0939219 21.6357422,17.8196484 C24.2720625,14.7739102 26.8685977,13.0529766 30.5404805,11.9082305 C31.2325781,11.6924063 31.6186172,10.9565039 31.402875,10.2645703 C31.1871328,9.57239063 30.4509844,9.18684375 29.7592148,9.40209375 C26.6908359,10.3586602 24.2241562,11.7170977 21.9486094,13.7509805 C22.3769766,12.487207 22.4597461,11.1849609 22.2161953,9.91126172 C26.1879023,6.76413281 31.6290352,6.33863672 35.9588086,8.87857031 L35.9588086,8.87857031 Z M11.9056875,15.7511484 C7.47362109,13.0548633 5.21997656,7.85974219 6.16571484,2.85124219 C11.1952148,1.86662109 16.2791016,4.18638281 18.934043,8.59712109 C20.0017617,10.3708008 19.8705117,12.0882891 19.2540469,13.4240859 C17.7796992,10.8451875 15.7403203,8.91171094 13.3430391,7.8631875 C12.678832,7.57255078 11.9050313,7.87557422 11.6145586,8.53978125 C11.3240859,9.20390625 11.6270273,9.97770703 12.2911523,10.2681797 C14.3027227,11.1480469 16.1630273,12.9624961 17.4382852,15.6039023 C15.7915898,16.7604609 13.7565586,16.8773555 11.9056875,15.7511484 L11.9056875,15.7511484 Z M34.1100703,38.0697188 C25.409918,39.8055 16.587293,39.8055 7.88714062,38.0697188 C5.3011875,37.5538242 2.68332422,36.1493672 2.68332422,34.4632969 C2.68332422,33.3331523 3.94898438,32.1578906 5.98647656,31.3963125 C10.2140391,29.8158164 14.4884414,28.8963281 18.724125,28.6531875 C18.6083789,29.3194453 18.4681875,30.001043 18.3020742,30.6976523 C18.1339102,31.402793 18.569168,32.1107227 19.2743086,32.2788047 C19.9777266,32.4466406 20.6869687,32.0132695 20.8554609,31.3065703 C21.0740742,30.3898711 21.2533125,29.4835898 21.3943242,28.5896953 C26.2419609,28.6384219 31.1571914,29.5817813 36.0108164,31.3962305 C38.0482266,32.1578086 39.3138867,33.3329883 39.3138867,34.4632148 C39.3138867,36.1493672 36.6960234,37.5538242 34.1100703,38.0697188 L34.1100703,38.0697188 Z" id="Shape"></path>
-                                      </g>
+                          <g id="Form-Copy-2" transform="translate(-862.000000, -549.000000)" fill="#5764D9" fill-rule="nonzero">
+                              <g id="Group-4" transform="translate(570.000000, 261.000000)">
+                                  <g id="key" transform="translate(292.000000, 288.523909)">
+                                      <path d="M40.366091,20.7870145 C38.7788743,19.3109912 36.4023666,19.2146175 34.7150493,20.5580413 L29.023072,25.0910287 L0,25.0910287 L0,41.7131218 L30.2229989,41.7131218 L40.9254386,27.4286067 C42.4410179,25.4057815 42.1954039,22.4882519 40.366091,20.7870145 Z M9.08675985,27.7153359 L26.4933753,27.7153359 C27.4358553,27.7153359 28.2024397,28.5348552 28.2024397,29.5419959 C28.2024397,30.5491366 27.4358553,31.3686559 26.4933753,31.3686559 L18.8246528,31.3686559 L18.8246528,33.9929631 L26.4933753,33.9929631 C28.7899306,33.9929631 30.65858,31.996111 30.65858,29.5419959 C30.65858,28.7867258 30.4810856,28.0751999 30.1689511,27.4515041 L36.1826571,22.6625449 C36.950201,22.0511521 38.0314785,22.0948963 38.7536093,22.766779 C39.5860746,23.5408455 39.6976882,24.868207 39.008178,25.7885428 L29.0432201,39.0888146 L9.08675985,39.0888146 L9.08675985,27.7153359 Z M6.63093937,39.0888146 L2.45582056,39.0888146 L2.45582056,27.7153359 L6.63093937,27.7153359 L6.63093937,39.0888146 Z" id="Shape"></path>
+                                      <path d="M10.3036367,15.5131106 C12.6734284,15.5131106 14.6015625,13.4526928 14.6015625,10.9203167 C14.6015625,8.38794057 12.6734284,6.32786455 10.3036367,6.32786455 C7.93384503,6.32786455 6.0060307,8.38794057 6.0060307,10.9203167 C6.0060307,13.4526928 7.93384503,15.5131106 10.3036367,15.5131106 Z M10.3036367,8.95217177 C11.319353,8.95217177 12.1457419,9.83491496 12.1457419,10.9203167 C12.1457419,12.0057184 11.319353,12.8888034 10.3036367,12.8888034 C9.28792028,12.8888034 8.46185126,12.0057184 8.46185126,10.9203167 C8.46185126,9.83491496 9.28792028,8.95217177 10.3036367,8.95217177 Z" id="Shape"></path>
+                                      <path d="M10.2192068,21.8406334 C14.0607639,21.8406334 17.5348593,19.5614949 19.2854989,15.9649057 L23.2217197,15.9649057 L23.2217197,19.6975118 L30.9169865,19.6975118 L30.9169865,15.9652474 L34.4096308,15.9652474 L34.4096308,5.87572774 L19.2854989,5.87572774 C17.5348593,2.27913849 14.0607639,0 10.2192068,0 C4.58447553,0 -5.68434189e-14,4.89900296 -5.68434189e-14,10.9203167 C-5.68434189e-14,16.9419723 4.58447553,21.8406334 10.2192068,21.8406334 Z M10.2192068,2.62430721 C13.3495066,2.62430721 16.1583973,4.616033 17.3752741,7.69794495 L17.6922058,8.50003495 L31.9538103,8.50003495 L31.9538103,13.3405984 L28.4608461,13.3405984 L28.4608461,17.0732047 L25.6775402,17.0732047 L25.6775402,13.3405984 L17.6922058,13.3405984 L17.3752741,14.1426884 C16.1583973,17.2249421 13.3495066,19.2163262 10.2192068,19.2163262 C5.93855078,19.2163262 2.45582056,15.4946561 2.45582056,10.9203167 C2.45582056,6.34597734 5.93855078,2.62430721 10.2192068,2.62430721 Z" id="Shape"></path>
                                   </g>
                               </g>
                           </g>
@@ -525,15 +533,18 @@
                   </svg><span>Entrega Inmediata</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="entrega" value="1" id="input-entrega-cualquiera" />
+                  <input type="radio" name="entrega" value="1" id="input-entrega-cualquiera" />
                   <label class="whatever" for="input-entrega-cualquiera">
-                    <svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                          <g id="Biq-Landing-Page" transform="translate(-652.000000, -3488.000000)" fill="#5764D9" fill-rule="nonzero">
+                          <g id="Biq-Landing-Page" transform="translate(-1066.000000, -3283.000000)">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
                                   <g id="Group-4" transform="translate(570.000000, 250.000000)">
-                                      <g id="plant" transform="translate(82.000000, 324.000000)">
-                                          <path d="M36.9299766,28.9375078 C31.8822656,27.0504609 26.761957,26.0533711 21.6991523,25.9689609 C21.8249883,24.2669766 21.8012812,22.6228242 21.6288516,21.0542227 C23.1848203,21.8751914 24.9761367,22.1137383 26.8211836,21.7215469 C33.2128945,20.3628633 38.0950664,14.9608594 38.6665781,8.32412109 C38.7073477,7.85088281 38.4892266,7.39257422 38.0962969,7.12572656 C33.1088789,3.73849219 26.4178359,3.70822266 21.2490469,7.35820313 C18.0252187,1.81838672 11.3115352,-1.25811328 4.72811719,0.49021875 C4.26907031,0.612035156 3.91166016,0.972480469 3.79361719,1.43251172 C1.37878125,10.8435469 8.71696875,19.1626641 14.5767891,19.1626641 C15.933668,19.1626641 17.2318125,18.7858125 18.3898477,18.1082344 C19.0355977,20.3435039 19.3134375,22.9900781 19.0645547,26.0071055 C14.4047695,26.2207148 9.70544531,27.2035312 5.06739844,28.9375078 C-2.40860156,31.7323945 -1.41610547,38.8905234 7.37370703,40.6439414 C16.4143711,42.4478086 25.583168,42.4478086 34.62375,40.6439414 C43.3927266,38.894625 44.4218086,31.7383828 36.9299766,28.9375078 L36.9299766,28.9375078 Z M35.9588086,8.87857031 C35.193375,13.9269375 31.3415156,18.0771445 26.2753477,19.1540508 C24.5572031,19.5193359 22.8881953,19.0939219 21.6357422,17.8196484 C24.2720625,14.7739102 26.8685977,13.0529766 30.5404805,11.9082305 C31.2325781,11.6924063 31.6186172,10.9565039 31.402875,10.2645703 C31.1871328,9.57239063 30.4509844,9.18684375 29.7592148,9.40209375 C26.6908359,10.3586602 24.2241562,11.7170977 21.9486094,13.7509805 C22.3769766,12.487207 22.4597461,11.1849609 22.2161953,9.91126172 C26.1879023,6.76413281 31.6290352,6.33863672 35.9588086,8.87857031 L35.9588086,8.87857031 Z M11.9056875,15.7511484 C7.47362109,13.0548633 5.21997656,7.85974219 6.16571484,2.85124219 C11.1952148,1.86662109 16.2791016,4.18638281 18.934043,8.59712109 C20.0017617,10.3708008 19.8705117,12.0882891 19.2540469,13.4240859 C17.7796992,10.8451875 15.7403203,8.91171094 13.3430391,7.8631875 C12.678832,7.57255078 11.9050313,7.87557422 11.6145586,8.53978125 C11.3240859,9.20390625 11.6270273,9.97770703 12.2911523,10.2681797 C14.3027227,11.1480469 16.1630273,12.9624961 17.4382852,15.6039023 C15.7915898,16.7604609 13.7565586,16.8773555 11.9056875,15.7511484 L11.9056875,15.7511484 Z M34.1100703,38.0697188 C25.409918,39.8055 16.587293,39.8055 7.88714062,38.0697188 C5.3011875,37.5538242 2.68332422,36.1493672 2.68332422,34.4632969 C2.68332422,33.3331523 3.94898438,32.1578906 5.98647656,31.3963125 C10.2140391,29.8158164 14.4884414,28.8963281 18.724125,28.6531875 C18.6083789,29.3194453 18.4681875,30.001043 18.3020742,30.6976523 C18.1339102,31.402793 18.569168,32.1107227 19.2743086,32.2788047 C19.9777266,32.4466406 20.6869687,32.0132695 20.8554609,31.3065703 C21.0740742,30.3898711 21.2533125,29.4835898 21.3943242,28.5896953 C26.2419609,28.6384219 31.1571914,29.5817813 36.0108164,31.3962305 C38.0482266,32.1578086 39.3138867,33.3329883 39.3138867,34.4632148 C39.3138867,36.1493672 36.6960234,37.5538242 34.1100703,38.0697188 L34.1100703,38.0697188 Z" id="Shape"></path>
+                                      <g id="menu" transform="translate(496.000000, 119.000000)">
+                                          <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="57" height="48"></rect>
+                                          <path d="M47.4622552,20.5376837 C49.5125001,22.5879285 49.5125001,25.9120511 47.4622552,27.962296 C45.4120104,30.0125409 42.0878878,30.0125409 40.0376429,27.962296 C37.987398,25.9120511 37.987398,22.5879285 40.0376429,20.5376837 C42.0878878,18.4874388 45.4120104,18.4874388 47.4622552,20.5376837" id="Path" fill="#5764D9" fill-rule="nonzero"></path>
+                                          <path d="M31.7123469,20.5376837 C33.7625918,22.5879285 33.7625918,25.9120511 31.7123469,27.962296 C29.662102,30.0125409 26.3379795,30.0125409 24.2877346,27.962296 C22.2374897,25.9120511 22.2374897,22.5879285 24.2877346,20.5376837 C26.3379795,18.4874388 29.662102,18.4874388 31.7123469,20.5376837" id="Path" fill="#5764D9" fill-rule="nonzero"></path>
+                                          <path d="M15.9623571,20.5376837 C18.012602,22.5879285 18.012602,25.9120511 15.9623571,27.962296 C13.9121122,30.0125409 10.5879896,30.0125409 8.53774476,27.962296 C6.48749988,25.9120511 6.48749988,22.5879285 8.53774476,20.5376837 C10.5879896,18.4874388 13.9121122,18.4874388 15.9623571,20.5376837" id="Path" fill="#5764D9" fill-rule="nonzero"></path>
                                       </g>
                                   </g>
                               </g>
@@ -608,7 +619,7 @@
             <p>
               <span>"</span>Biq es la plataforma de búsqueda
               de bienes raíces más innovadora
-              del mercado.”.
+              del mercado”.
             </p>
             <img src="./img/test-1.png" alt="" />
             <span>Christian Olsen</span>
@@ -618,9 +629,9 @@
               <span>"</span>Me gustó de biq que de verdad
               investigan lo que les pides, no se
               quedan solamente con un
-              pequeño numero de opciones.”.
+              pequeño numero de opciones”.
             </p>
-            <img src="./img/test-1.png" alt="" />
+            <img src="./img/test-2.png" alt="" />
             <span>Laura Mendoza</span>
           </div>
           <div class="testimonial-card grid-row3">
@@ -630,9 +641,9 @@
               punto de comprar en una
               ubicación y gracias a su asesoría
               pude tener un producto de más
-              valor por el mismo dinero.”.
+              valor por el mismo dinero”.
             </p>
-            <img src="./img/test-1.png" alt="" />
+            <img src="./img/test-3.png" alt="" />
             <span>Jorge Sánchez</span>
           </div>
         </div>
@@ -647,9 +658,6 @@
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
             >
-              <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-              <title>ic-angle-right</title>
-              <desc>Created with Sketch.</desc>
               <g
                 id="Page-1"
                 stroke="none"
@@ -735,7 +743,7 @@ Cuando hayas elegido alguna o algunas opciones nosotros te ayudamos a agendar ci
         </div>
       </div>
     </section>
-    <footer>
+    <footer id="contact">
       <div class="container footer-layout">
         <div class="footer-about">
           <ul>
@@ -748,7 +756,7 @@ Cuando hayas elegido alguna o algunas opciones nosotros te ayudamos a agendar ci
               </p>
             </li>
             <li>
-              <a href="#"><img class="logo" src="img/logo.png" alt=""/></a>
+              <a href="index.html"><img class="logo" src="img/logo-white.png" alt=""/></a>
             </li>
           </ul>
         </div>
@@ -763,12 +771,12 @@ Cuando hayas elegido alguna o algunas opciones nosotros te ayudamos a agendar ci
         <div class="footer-form">
           <form name="Formulario de Contacto" method="POST" netlify>
             <h5>Ponte en contacto con nosotros</h5>
-            <label for="client-name">Nombre y Apellido </label>
-            <input type="text" placeholder="Juan Pérez" id="client-name" name="name"/>
-            <label for="client-phone">Celular</label>
-            <input type="number" placeholder="10 Dígitos" id="client-phone" name="phone"/>
-            <label for="client-email">Email</label>
-            <input type="text" placeholder="usuario@empresa.com" id="client-email" name="email"/>
+            <label for="client-name">Nombre y Apellido:</label>
+            <input type="text" placeholder="Juan Pérez" id="client-name" name="name" required/>
+            <label for="client-email">Email:</label>
+            <input type="text" placeholder="usuario@empresa.com" id="client-email" name="email" required/>
+            <label for="input-msg">Mensaje:</label>
+            <textarea id="input-msg" cols="50" placeholder="Escribe tu mensaje aquí..." required></textarea>
             <div class="footer-form-btn-wrapper">
               <button type="submit" class="btn btn-solid__primary">
                 Enviar mensaje<svg

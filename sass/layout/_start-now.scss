@@ -51,6 +51,15 @@
         display: none;
     }
   }
+  &__success{
+    text-align: center;
+    padding: 10vh 0 20vh 0;
+    margin: auto;
+    img{
+      width: 250px;
+      margin: 2rem 0;
+    }
+  }
   @media screen and (min-width: 300px) {
     .steps {
       display: none;
