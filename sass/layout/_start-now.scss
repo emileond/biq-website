@@ -1,59 +1,94 @@
-.start-now{
-    .steps{
-        display: block;
+.start-now {
+  .steps {
+    display: block;
+    /* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
+  }
+  .checkboxes {
+    box-sizing: border-box;
+  }
+  &__nav-btns {
+    text-align: right;
+    margin: 4rem 0 2rem 0;
+    #prevBtn{
+        margin-right: .5rem;
+        border: none;
     }
-    h2{
-        margin-bottom: 1rem;
+  }
+  h2 {
+    margin-bottom: 1rem;
+  }
+  h4 {
+    color: $orange-300;
+    margin-bottom: 3rem;
+  }
+  form {
+    grid-column: 2 / 4;
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 10px 10px 50px rgba($color: $blue-500, $alpha: 0.3);
+    .tab{
+        display: none;
     }
-    h4{
-        color: $orange-300;
-        margin-bottom: 3rem;
+  }
+  @media screen and (min-width: 300px) {
+    .steps {
+      display: none;
     }
     form {
-        grid-column: 2 / 4;
-        border-radius: 0.5rem;
-        background-color: white;
-        padding: 2rem;
-        box-shadow: 10px 10px 50px rgba($color: $blue-500, $alpha: 0.3);
+      grid-column: 1;
     }
-    @media screen and (min-width: 300px) {
-        .steps{
-            display: none;
-        }
-        form{
-            grid-column: 1;
-        }
+  }
+  @media screen and (min-width: 768px) {
+    .steps {
+      display: none;
     }
-    @media screen and (min-width: 768px) {
-        .steps{
-            display: none;
-        }
-        form{
-            grid-column: 1;
-        }
+    form {
+      grid-column: 1;
     }
-    @media screen and (min-width: 992px) {
-        .steps{
-            display: block;
-        }
-        form{
-            grid-column: 2 / 4;
-        }
+  }
+  @media screen and (min-width: 992px) {
+    .steps {
+      display: block;
     }
-    @media screen and (min-width: 1200px) {
-        .steps{
-            display: block;
-        }
-        form{
-            grid-column: 2 / 4;
-        }
+    form {
+      grid-column: 2 / 4;
     }
-    @media screen and (min-width: 1600px) {
-        .steps{
-            display: block;
-        }
-        form{
-            grid-column: 2 / 4;
-        }
+  }
+  @media screen and (min-width: 1200px) {
+    .steps {
+      display: block;
     }
+    form {
+      grid-column: 2 / 4;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .steps {
+      display: block;
+    }
+    form {
+      grid-column: 2 / 4;
+    }
+  }
 }

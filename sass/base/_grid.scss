@@ -21,6 +21,11 @@
   display: grid;
   grid-template-rows: 1fr 0.2fr 1fr;
 }
+.grid-col4{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
 html {
   scroll-behavior: smooth;
 }
