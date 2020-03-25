@@ -307,26 +307,24 @@
             <span class="step"></span>
             <span class="step"></span>
           </div>
-          <form name="Formulario Ventas" id="regForm" action="" netlify>
+          <form name="Formulario Ventas" id="regForm" method="POST" netlify>
             <div class="tab">
               <h5>¿Cómo podemos contactarte?</h5>
               <label for="client-name">Nombre y Apellido </label>
-              <input type="text" placeholder="Juan Pérez" id="client-name" />
+              <input type="text" placeholder="Juan Pérez" id="client-name" name="Nombre"/>
               <label for="client-phone">Celular</label>
-              <input type="number" placeholder="10 Dígitos" id="client-phone"/>
+              <input type="number" placeholder="10 Dígitos" id="client-phone" name="Teléfono"/>
               <label for="client-email">Email</label>
-              <input type="email" placeholder="usuario@empresa.com" id="client-email"/>
+              <input type="email" placeholder="usuario@empresa.com" id="client-email" name="Email"/>
             </div>
             <div class="tab">
               <h5>¿Con qué objetivo estás buscando inmueble?</h5>
               <div class="grid-col3 checkboxes">
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="goal" value="1" id="input-habitar"/>
+                  <input type="checkbox" name="goal" value="Habitar" id="input-habitar"/>
                   <label class="whatever" for="input-habitar">
                     <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                      <title>house</title>
-                      <desc>Created with Sketch.</desc>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-671.000000, -3280.000000)" fill="#5764D9" fill-rule="nonzero">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -344,12 +342,10 @@
                   </svg><span>Habitar</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="goal" value="2" id="input-invertir" />
+                  <input type="checkbox" name="goal" value="Invertir" id="input-invertir" />
                   <label class="whatever" for="input-invertir">
                     <svg width="48px" height="51px" viewBox="0 0 48 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                      <title>growth</title>
-                      <desc>Created with Sketch.</desc>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-874.000000, -3277.000000)" fill="#5764D9" fill-rule="nonzero">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
@@ -365,12 +361,10 @@
                   <span>Invertir</span></label>
                 </div>
                 <div class="checkboxes-card">
-                  <input type="checkbox" name="goal" value="3" id="input-obj-otro" />
+                  <input type="checkbox" name="goal" value="No se" id="input-obj-otro" />
                   <label class="whatever" for="input-obj-otro">
                     <svg width="57px" height="48px" viewBox="0 0 57 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-                      <title>menu</title>
-                      <desc>Created with Sketch.</desc>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <g id="Biq-Landing-Page" transform="translate(-1066.000000, -3283.000000)">
                               <g id="Form-Copy" transform="translate(0.000000, 2914.000000)">
