@@ -643,11 +643,11 @@ input {
   padding: 0.5rem 0;
 }
 
-.checkboxes input[type=checkbox] {
+.checkboxes input[type=radio] {
   display: none;
 }
 
-.checkboxes input[type=checkbox]:checked + .whatever {
+.checkboxes input[type=radio]:checked + .whatever {
   border: 3px solid #5764D9;
 }
 
@@ -660,7 +660,7 @@ input {
   flex-flow: row;
   justify-content: space-evenly;
 }
-.checkboxes-standard input[type=checkbox] {
+.checkboxes-standard input[type=radio] {
   width: auto;
   margin-right: 0.5rem;
 }
