@@ -18,11 +18,11 @@
     }
 }
 
-.checkboxes input[type=checkbox]{
+.checkboxes input[type=radio]{
     display: none;
 }
 
-.checkboxes input[type=checkbox]:checked + .whatever{
+.checkboxes input[type=radio]:checked + .whatever{
     border: 3px solid $blue-200;
 }
 .tab{
@@ -34,7 +34,7 @@
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    input[type="checkbox"]{
+    input[type="radio"]{
         width: auto;
         margin-right: .5rem;
     }
