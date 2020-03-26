@@ -115,12 +115,13 @@
   &:hover {
     background-color: #21b457;
   }
-  #ws-mobile{
-    display: none;
-  }
-  #ws-we{
-    display: none;
-  }
+}
+
+#ws-mobile{
+  display: none;
+}
+#ws-web{
+  display: none;
 }
 
 @keyframes effect {

@@ -635,10 +635,12 @@ template {
 .whatsapp-button:hover {
   background-color: #21b457;
 }
-.whatsapp-button #ws-mobile {
+
+#ws-mobile {
   display: none;
 }
-.whatsapp-button #ws-we {
+
+#ws-web {
   display: none;
 }
 
