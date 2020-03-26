@@ -1,41 +1,44 @@
 .faq {
-    text-align: center;
-    padding: 5vh 0 12vh 0;
+  text-align: center;
+  padding: 5vh 0 12vh 0;
   background-color: $gray-bg;
-  &-list{
-      text-align: left;
-        list-style-type: none;
-        padding: 0 2rem;
+  &-list {
+    text-align: left;
+    list-style-type: none;
+    padding: 0 2rem;
 
     li {
-        border-bottom: 1px solid $gray-100;
+      border-bottom: 1px solid $gray-100;
+    }
+    a {
+      color: $orange-300;
     }
   }
-  &-answer{
+  &-answer {
     padding-left: 1rem;
-    line-height:24px;
-    max-height:0px;
-    overflow:hidden;
+    line-height: 24px;
+    max-height: 0px;
+    overflow: hidden;
     transition: all 0.3s ease;
   }
-  &-question{
-      color: $gray-200;
-      padding: 1rem;
-      cursor: pointer;
-      &:hover{
-          color: $gray-300;
-      }
-}
-  &-wrapper{
-      max-width: 800px;
-      margin: auto;
+  &-question {
+    color: $gray-200;
+    padding: 1rem;
+    cursor: pointer;
+    &:hover {
+      color: $gray-300;
+    }
+  }
+  &-wrapper {
+    max-width: 800px;
+    margin: auto;
   }
 }
-.show{
-    max-height: 200px;
-    padding-bottom: 1rem;
-    transition: all .3s ease;
+.show {
+  max-height: 200px;
+  padding-bottom: 1rem;
+  transition: all 0.3s ease;
 }
-.active-question{
-    color: $orange-300;
+.active-question {
+  color: $orange-300;
 }
