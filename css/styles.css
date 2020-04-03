@@ -755,6 +755,89 @@ textarea {
   margin: 0 0.5rem;
 }
 
+/*Vertical Steps*/
+.steps ul {
+  list-style-type: none;
+}
+
+.list-group.vertical-steps {
+  padding-left: 10px;
+}
+
+.list-group.vertical-steps .list-group-item {
+  border: none;
+  border-left: 3px solid #F7F8FB;
+  box-sizing: border-box;
+  border-radius: 0;
+  counter-increment: step-counter;
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-bottom: 4rem;
+  padding-top: 0px;
+  transition: 0.3s all ease-in-out;
+}
+.list-group.vertical-steps .list-group-item span {
+  font-size: 1.2rem;
+  color: #A7A7A7;
+  font-weight: bold;
+}
+
+.list-group.vertical-steps .list-group-item.active {
+  background-color: transparent;
+  color: inherit;
+  transition: 0.3s all ease-in-out;
+}
+.list-group.vertical-steps .list-group-item.active span {
+  color: #282828;
+}
+
+.list-group.vertical-steps .list-group-item:last-child {
+  border-left: 3px solid transparent;
+  padding-bottom: 0;
+}
+
+.list-group.vertical-steps .list-group-item::before {
+  border-radius: 50%;
+  background-color: #F7F8FB;
+  color: #424242;
+  content: counter(step-counter);
+  display: inline-block;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  margin-left: -35px;
+  text-align: center;
+  width: 25px;
+}
+
+.list-group.vertical-steps .list-group-item span,
+.list-group.vertical-steps .list-group-item a {
+  display: block;
+  overflow: hidden;
+  padding-top: 2rem;
+}
+
+/*Active/ Completed States*/
+.list-group.vertical-steps .list-group-item.active::before {
+  background-color: #EF4F06;
+  color: #fff;
+  transition: 0.3s all ease-in-out;
+}
+
+.list-group.vertical-steps .list-group-item.completed {
+  border-left: 3px solid #EF4F06;
+  transition: 0.3s all ease-in-out;
+}
+
+.list-group.vertical-steps .list-group-item.completed::before {
+  background-color: #EF4F06;
+  color: #fff;
+}
+
+.list-group.vertical-steps .list-group-item.completed:last-child {
+  border-left: 3px solid transparent;
+}
+
 .navbar {
   background-color: transparent;
   color: #191919;
@@ -955,7 +1038,6 @@ footer {
   padding: 1rem;
 }
 .hero-heading h1 {
-  background-color: white;
   margin: 1rem 0;
 }
 .hero-subheading {

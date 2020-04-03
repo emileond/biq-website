@@ -1,0 +1,74 @@
+/*Vertical Steps*/
+.steps {
+    ul {
+        list-style-type: none;
+    }
+}
+.list-group.vertical-steps{
+  padding-left:10px;
+}
+.list-group.vertical-steps .list-group-item{
+  border:none;
+  border-left:3px solid $gray-bg;
+  box-sizing:border-box;
+  border-radius:0;
+  counter-increment: step-counter;
+  padding-left:20px;
+  padding-right:0px;
+  padding-bottom:4rem;  
+  padding-top:0px;
+  transition: .3s all ease-in-out;
+  span {
+      font-size: 1.2rem;
+      color: $gray-100;
+      font-weight: bold;
+  }
+}
+.list-group.vertical-steps .list-group-item.active{
+  background-color:transparent;
+  color:inherit;
+  transition: .3s all ease-in-out;
+  span {
+    color: $gray-400;
+}
+}
+.list-group.vertical-steps .list-group-item:last-child{
+  border-left:3px solid transparent;
+  padding-bottom:0;
+}
+.list-group.vertical-steps .list-group-item::before {
+  border-radius: 50%;
+  background-color:$gray-bg;
+  color:$gray-300;
+  content: counter(step-counter);
+  display:inline-block;
+  float:left;
+  height:25px;
+  line-height:25px;
+  margin-left:-35px;
+  text-align:center;  
+  width:25px;  
+}
+.list-group.vertical-steps .list-group-item span,
+.list-group.vertical-steps .list-group-item a{
+  display:block;
+  overflow:hidden;
+  padding-top:2rem;
+}
+/*Active/ Completed States*/
+.list-group.vertical-steps .list-group-item.active::before{
+  background-color: $orange-300;
+  color:#fff;
+  transition: .3s all ease-in-out;
+}
+.list-group.vertical-steps .list-group-item.completed{
+  border-left:3px solid $orange-300;
+  transition: .3s all ease-in-out;
+}
+.list-group.vertical-steps .list-group-item.completed::before{
+  background-color: $orange-300;
+  color:#fff;
+}
+.list-group.vertical-steps .list-group-item.completed:last-child{
+  border-left:3px solid transparent;
+}
