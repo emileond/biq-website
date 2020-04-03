@@ -1,6 +1,6 @@
 .why-biq {
   background-color: $gray-bg;
-  background-image: url("./../img/why-biq-bg.png");
+  background-image: url("./../img/why-biq-bg.webp");
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 52%;
@@ -32,12 +32,12 @@
     background-image: none;
   }
   @media screen and (min-width: 992px) {
-    background-image: url("./../img/why-biq-bg.png");
+    background-image: url("./../img/why-biq-bg.webp");
   }
   @media screen and (min-width: 1200px) {
-    background-image: url("./../img/why-biq-bg.png");
+    background-image: url("./../img/why-biq-bg.webp");
   }
   @media screen and (min-width: 1600px) {
-    background-image: url("./../img/why-biq-bg.png");
+    background-image: url("./../img/why-biq-bg.webp");
   }
 }
