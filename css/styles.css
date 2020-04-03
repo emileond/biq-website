@@ -766,7 +766,7 @@ textarea {
 
 .list-group.vertical-steps .list-group-item {
   border: none;
-  border-left: 3px solid #F7F8FB;
+  border-left: 3px solid #DDDFE7;
   box-sizing: border-box;
   border-radius: 0;
   counter-increment: step-counter;
@@ -798,8 +798,8 @@ textarea {
 
 .list-group.vertical-steps .list-group-item::before {
   border-radius: 50%;
-  background-color: #F7F8FB;
-  color: #424242;
+  background-color: #DDDFE7;
+  color: #595959;
   content: counter(step-counter);
   display: inline-block;
   float: left;
@@ -1302,7 +1302,7 @@ footer {
 }
 .testimonial-card span {
   color: #323DA6;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .testimonial-btn {
   text-align: center;
@@ -1384,7 +1384,7 @@ body h4 {
   margin: 0;
 }
 body h5 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 0;
 }
 
