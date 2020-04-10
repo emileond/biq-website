@@ -9,10 +9,11 @@ navBarToggle.addEventListener('click', () => { mainNav.classList.toggle('active'
 
     // Navbar Menu Active Item
 function activeLink(){
-    navItems.forEach(el => {
-        el.classList.remove('active-link')
-    })
-    this.classList.add('active-link');
+  navItems.forEach(el => {
+    el.classList.remove('active-link')
+  })
+  this.classList.add('active-link');
+  mainNav.classList.remove('active');
 }
 
 navItems.forEach(el => {

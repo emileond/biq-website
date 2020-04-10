@@ -1,5 +1,5 @@
 .cta {
-    padding: 9vh 0;
+  padding: 9vh 0;
   background-image: url(./../img/cta.webp);
   background-attachment: fixed;
   background-size: cover;
@@ -12,5 +12,10 @@
     align-self: center;
     justify-self: center;
     grid-column: 3;
+  }
+  @media screen and (min-width: 300px) {
+    &-btn {
+      grid-column: 1;
+    }
   }
 }
